@@ -1,0 +1,86 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .footer, .sect1 {
+    background-color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    margin: 10px 0;
+    border: 2px;
+    border-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+/*overall flexbox 6 sections: header - body (4 sects) - footer
+
+
+/*header section*/
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header, .body .sect1 {
+    padding: 10px 80px 20px 150px;
+}
+
+.body .sect1 {
+    padding-bottom: 50px;
+}
+
+.left .text-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left .text {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect1 {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.placeholder {
+    background-color: grey;
+    box-sizing: border-box;
+    padding: 100px 220px 100px 220px;
+    
+}
+
